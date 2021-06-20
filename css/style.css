@@ -1,0 +1,123 @@
+/* Global css */
+body{
+    background-color: #E5E5E5; 
+    font-family: font-family: 'Open Sans', sans-serif;;
+ }
+ *, ::after, :before{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+ html{
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+ }
+ *, ::before, ::after{
+     -webkit-box-sizing: inherit;
+     -moz-box-sizing: inherit;
+     box-sizing: inherit;
+     
+ }
+ .container{
+     max-width:1000px;
+     margin: 0 auto;
+ }
+ .row{
+     background-color: #ffffff;
+     border-radius: 10px;
+ }
+ img{
+     width: 100%;
+ }
+
+ /* style css */
+
+ /* header css */
+header{
+    background-color: #EAEAEA;
+}
+ .nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .brand-img a{
+     width: 150px;
+ }
+ ul{
+     display: flex;
+ }
+ ul li{
+     list-style: none;
+     margin-left: 30px;
+     font-size: 20px;
+     color: #fff;
+ }
+ ul li a{
+     text-decoration: none;
+     color: rgb(24, 22, 22);
+     font-family: font-family: 'Open Sans', sans-serif;;
+ }
+ ul li .btn{
+     background-color: #0066F9;
+     color: #fff;
+     padding: 10px 15px;
+     border-radius: 4px;
+ }
+
+ /* Post section */
+article{
+    background: #fff;
+}
+ .post-header{
+     padding: 60px 0 40px 0;
+ }
+ .post-header h1{
+     font-size: 40px;
+     margin-bottom: 10px;
+ }
+ .post-header p{
+     font-size: 20px;
+     line-height: 1.4;
+     margin-bottom: 20px;
+ }
+ .post-section{
+     display: flex;
+     justify-content: space-between;
+ }
+article h5{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.post-items{
+    width: 48%;
+}
+.post-item img{
+    width: 100%;
+    height: auto;
+}
+.post-item .btn{
+    text-align: center;
+    transform: translateY(-50%);
+}
+.post-item .btn a{
+    background: #7D4CDB;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: #fff;
+}
+.post-content{
+    background: #EAEAEA;
+    margin-top: -21px;
+    padding: 30px 20px;
+}
+.post-content h2{
+    margin: 15px 0;
+}
+.post-content p{
+    margin-bottom: 20px;
+}
+
